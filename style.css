@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&family=Press+Start+2P&display=swap");
+
+:root {
+  --primary-color: #4caf50;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+input[type="text"],
+input[type="file"],
+button[type="submit"],
+button[type="button"] {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid var(--primary-color);
+  padding: 8px;
+}
+
+img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.table {
+  margin: 0 auto;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+thead {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.show {
+  text-align: center;
+}
+
+#table-heading {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.add-update {
+  margin-left: 400px;
+}
+.other {
+  margin-left: 700px;
+}
