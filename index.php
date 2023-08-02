@@ -68,6 +68,10 @@
     <div class="show">
         <form action="show_user.php" method="post">
         <button type="submit" name="show_all">Show All Entries</button>
+        </form>
+        <form action="time_show.php" method="post">
+        <button type="submit" name="time_show">Run Query</button>
+        </form>
     </form>
     </div>
 </body>
