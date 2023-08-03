@@ -1,10 +1,10 @@
 <?php
 include 'db_connection.php';
 
-$sql = "SELECT * FROM teacher WHERE TIME(entry_time) < '21:00:00'";
+$sql = "SELECT * FROM teacher WHERE TIME(entry_time) < '19:45:00'";
 $result = $conn->query($sql);
 
-echo '<h1>Users with Entry Time Before 9 PM</h1>';
+echo '<h1>Users with Entry Time Before 7:45 PM</h1>';
 echo '<table border="1">';
 echo '<tr><th>ID</th><th>Name</th><th>Salary</th><th>Image</th><th>Entry Time</th><th>Exit Time</th></tr>';
 
